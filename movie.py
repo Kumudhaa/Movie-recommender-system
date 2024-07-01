@@ -3,6 +3,8 @@ import streamlit as st
 import requests
 import re
 import numpy as np 
+import nltk
+nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 
 def preprocess(text):
